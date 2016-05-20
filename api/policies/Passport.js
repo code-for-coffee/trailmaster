@@ -1,6 +1,7 @@
 'use strict'
 
 const Policy = require('trails-policy')
+const Passport = require('passport')
 
 /**
  * @module PassportPolicy
