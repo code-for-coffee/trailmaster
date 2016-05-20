@@ -49,29 +49,10 @@ module.exports = class Students extends Model {
       }
     }
   }
-  /**
-   * After Trails.js will create model Schema you could add anything you want here
-   * @param  {mongoose.Schema} schema mongoose new Schema object
-   */
-  static onSchema (schema) {
-    // virtuals
-    schema.virtual('name.full').get(function () {
-      return this.name.first + ' ' + this.name.last
-    })
-    // lifecircle events
-    schema.pre('save', function (next) {
-      // performing actions
-      next()
-    })
-  }
 
-  static Schema () {
+  static schema () {
     return {
       username: String,
-      childs: [{
-        type: Schema.ObjectId,
-        ref: 'StudentSchema'
-      }],
       email: {
         type: String,
         required: true,
@@ -90,7 +71,7 @@ module.exports = class Students extends Model {
         required: true,
         validate: {
           validator: function (val) {
-            if (val.length > 12 && typeof val === 'string')
+            if (val.length > 12)
             return val
           },
           message: '{VALUE} must be at least 12 characters long'
@@ -101,7 +82,7 @@ module.exports = class Students extends Model {
         required: true,
         validate: {
           validator: function (val) {
-            if (val.length > 2 && typeof val === 'string')
+            if (val.length > 2)
               return val
           },
           message: '{VALUE} must have at least 2 characters'
@@ -112,21 +93,14 @@ module.exports = class Students extends Model {
         required: true,
         validate: {
           validator: function (val) {
-            if (val.length > 2 && typeof val === 'string')
+            if (val.length > 2)
               return val
           },
           message: '{VALUE} must have at least 2 characters'
         }
       },
       location: {
-        type: String,
-        validate: {
-          validator: function (val) {
-            if (val.length > 2 && typeof val === 'string')
-              return val
-          },
-          message: '{VALUE} must have at least 2 characters'
-        }
+        type: String
       }
     }
   }

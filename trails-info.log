@@ -1,0 +1,77 @@
+{"level":"debug","message":"The config setting i18n.resources is defined by both trailpack-core and the application. trailpack-core:i18n.resources will be merge with application settings.","timestamp":"2016-05-20T00:53:01.829Z"}
+{"level":"debug","message":"The config setting resources.en is defined by both trailpack-core and the application. trailpack-core:resources.en will be merge with application settings.","timestamp":"2016-05-20T00:53:01.831Z"}
+{"level":"debug","message":"trails event: trailpack:core:constructed","timestamp":"2016-05-20T00:53:01.832Z"}
+{"level":"debug","message":"trails event: trailpack:repl:constructed","timestamp":"2016-05-20T00:53:01.833Z"}
+{"level":"debug","message":"trails event: trailpack:router:constructed","timestamp":"2016-05-20T00:53:01.834Z"}
+{"level":"debug","message":"trails event: trailpack:hapi:constructed","timestamp":"2016-05-20T00:53:01.873Z"}
+{"level":"debug","message":"trails event: trailpack:mongoose:constructed","timestamp":"2016-05-20T00:53:01.876Z"}
+{"level":"debug","message":"The config setting footprints.controllers is defined by both trailpack-footprints and the application. trailpack-footprints:footprints.controllers will be merge with application settings.","timestamp":"2016-05-20T00:53:01.882Z"}
+{"level":"debug","message":"The config setting footprints.models is defined by both trailpack-footprints and the application. trailpack-footprints:footprints.models will be merge with application settings.","timestamp":"2016-05-20T00:53:01.882Z"}
+{"level":"debug","message":"The config setting controllers.ignore is defined by both trailpack-footprints and the application. trailpack-footprints:controllers.ignore will be merge with application settings.","timestamp":"2016-05-20T00:53:01.883Z"}
+{"level":"debug","message":"The config setting models.options is defined by both trailpack-footprints and the application. trailpack-footprints:models.options will be merge with application settings.","timestamp":"2016-05-20T00:53:01.883Z"}
+{"level":"debug","message":"The config setting models.actions is defined by both trailpack-footprints and the application. trailpack-footprints:models.actions will be merge with application settings.","timestamp":"2016-05-20T00:53:01.883Z"}
+{"level":"debug","message":"trails event: trailpack:footprints:constructed","timestamp":"2016-05-20T00:53:01.884Z"}
+{"level":"debug","message":"trails event: trails:start","timestamp":"2016-05-20T00:53:01.887Z"}
+{"level":"debug","message":"trails event: trailpack:repl:validated","timestamp":"2016-05-20T00:53:01.900Z"}
+{"level":"debug","message":"trails event: trailpack:mongoose:validated","timestamp":"2016-05-20T00:53:01.900Z"}
+{"level":"debug","message":"trails event: trailpack:footprints:validated","timestamp":"2016-05-20T00:53:01.900Z"}
+{"level":"debug","message":"trails event: trailpack:core:validated","timestamp":"2016-05-20T00:53:01.900Z"}
+{"level":"debug","message":"trails event: trailpack:hapi:validated","timestamp":"2016-05-20T00:53:01.900Z"}
+{"level":"debug","message":"trails event: trailpack:router:validated","timestamp":"2016-05-20T00:53:01.900Z"}
+{"level":"debug","message":"trails event: trailpack:all:validated","timestamp":"2016-05-20T00:53:01.900Z"}
+{"level":"debug","message":"historyFile /Users/codeforcoffee/Github/trailmaster/.tmp/.node_repl_history","timestamp":"2016-05-20T00:53:01.905Z"}
+{"level":"debug","message":"trails event: trailpack:repl:configured","timestamp":"2016-05-20T00:53:01.906Z"}
+{"level":"debug","message":"trails event: trailpack:router:configured","timestamp":"2016-05-20T00:53:01.906Z"}
+{"level":"debug","message":"trails event: trailpack:hapi:configured","timestamp":"2016-05-20T00:53:01.906Z"}
+{"level":"debug","message":"trails event: trailpack:mongoose:configured","timestamp":"2016-05-20T00:53:01.906Z"}
+{"level":"debug","message":"trails event: trailpack:core:configured","timestamp":"2016-05-20T00:53:01.906Z"}
+{"level":"debug","message":"trails event: trailpack:footprints:configured","timestamp":"2016-05-20T00:53:01.911Z"}
+{"level":"debug","message":"trails event: trailpack:all:configured","timestamp":"2016-05-20T00:53:01.911Z"}
+{"level":"debug","message":"trails event: i18n:ready","timestamp":"2016-05-20T00:53:01.945Z"}
+{"level":"debug","message":"trails event: trailpack:repl:initialized","timestamp":"2016-05-20T00:53:01.945Z"}
+{"level":"debug","message":"trails event: trailpack:router:initialized","timestamp":"2016-05-20T00:53:01.945Z"}
+{"level":"debug","message":"trails event: trailpack:footprints:initialized","timestamp":"2016-05-20T00:53:01.945Z"}
+{"level":"debug","message":"trails event: trailpack:core:initialized","timestamp":"2016-05-20T00:53:01.945Z"}
+{"level":"debug","message":"trailpack-hapi: registering 2 plugins","timestamp":"2016-05-20T00:53:01.962Z"}
+{"level":"debug","message":"config.paths.www: No www directory is set, static files will not be loaded","timestamp":"2016-05-20T00:53:01.982Z"}
+{"level":"debug","message":"config.views: No view engine is set. Not loading.","timestamp":"2016-05-20T00:53:01.982Z"}
+{"level":"debug","message":"trails event: trailpack:hapi:initialized","timestamp":"2016-05-20T00:53:01.992Z"}
+{"level":"debug","message":"trails event: trailpack:mongoose:initialized","timestamp":"2016-05-20T00:53:02.007Z"}
+{"level":"debug","message":"trails event: trailpack:all:initialized","timestamp":"2016-05-20T00:53:02.007Z"}
+{"level":"info","message":"All trailpacks are loaded.","timestamp":"2016-05-20T00:53:02.008Z"}
+{"level":"debug","message":"trails event: trails:ready","timestamp":"2016-05-20T00:53:02.008Z"}
+{"level":"info","message":"---------------------------------------------------------------\n        Thu May 19 2016 19:53:02 GMT-0500 (CDT)\n        Basic Info\n          Application       : trailmaster\n          Version           : 0.0.0\n          Environment       : development","timestamp":"2016-05-20T00:53:02.008Z"}
+{"level":"debug","message":" Database Info\n          ORM               : mongoose\n          Stores            : production\n        Web Server Info\n          Server            : hapi\n          View Engine       : NOT INSTALLED\n          Port              : 3000\n          Routes            : 11","timestamp":"2016-05-20T00:53:02.009Z"}
+{"level":"info","message":"---------------------------------------------------------------","timestamp":"2016-05-20T00:53:02.009Z"}
+{"level":"debug","message":"Unloading trailpack core ...","timestamp":"2016-05-20T00:53:27.477Z"}
+{"level":"info","message":"All trailpacks are loaded.","timestamp":"2016-05-20T00:53:29.612Z"}
+{"level":"info","message":"---------------------------------------------------------------\n        Thu May 19 2016 19:53:29 GMT-0500 (CDT)\n        Basic Info\n          Application       : trailmaster\n          Version           : 0.0.0\n          Environment       : development","timestamp":"2016-05-20T00:53:29.613Z"}
+{"level":"info","message":"---------------------------------------------------------------","timestamp":"2016-05-20T00:53:29.614Z"}
+{"level":"info","message":"All trailpacks are loaded.","timestamp":"2016-05-20T00:55:17.056Z"}
+{"level":"info","message":"---------------------------------------------------------------\n        Thu May 19 2016 19:55:17 GMT-0500 (CDT)\n        Basic Info\n          Application       : trailmaster\n          Version           : 0.0.0\n          Environment       : development","timestamp":"2016-05-20T00:55:17.057Z"}
+{"level":"info","message":"---------------------------------------------------------------","timestamp":"2016-05-20T00:55:17.058Z"}
+{"level":"info","message":"All trailpacks are loaded.","timestamp":"2016-05-20T00:59:53.735Z"}
+{"level":"info","message":"---------------------------------------------------------------\n        Thu May 19 2016 19:59:53 GMT-0500 (CDT)\n        Basic Info\n          Application       : trailmaster\n          Version           : 0.0.0\n          Environment       : development","timestamp":"2016-05-20T00:59:53.737Z"}
+{"level":"info","message":"---------------------------------------------------------------","timestamp":"2016-05-20T00:59:53.738Z"}
+{"level":"info","message":"All trailpacks are loaded.","timestamp":"2016-05-20T01:02:22.831Z"}
+{"level":"info","message":"---------------------------------------------------------------\n        Thu May 19 2016 20:02:22 GMT-0500 (CDT)\n        Basic Info\n          Application       : trailmaster\n          Version           : 0.0.0\n          Environment       : development","timestamp":"2016-05-20T01:02:22.833Z"}
+{"level":"info","message":"---------------------------------------------------------------","timestamp":"2016-05-20T01:02:22.834Z"}
+{"level":"info","message":"All trailpacks are loaded.","timestamp":"2016-05-20T01:11:34.408Z"}
+{"level":"info","message":"---------------------------------------------------------------\n        Thu May 19 2016 20:11:34 GMT-0500 (CDT)\n        Basic Info\n          Application       : trailmaster\n          Version           : 0.0.0\n          Environment       : development","timestamp":"2016-05-20T01:11:34.410Z"}
+{"level":"info","message":"---------------------------------------------------------------","timestamp":"2016-05-20T01:11:34.411Z"}
+{"level":"info","message":"All trailpacks are loaded.","timestamp":"2016-05-20T01:14:30.806Z"}
+{"level":"info","message":"---------------------------------------------------------------\n        Thu May 19 2016 20:14:30 GMT-0500 (CDT)\n        Basic Info\n          Application       : trailmaster\n          Version           : 0.0.0\n          Environment       : development","timestamp":"2016-05-20T01:14:30.808Z"}
+{"level":"info","message":"---------------------------------------------------------------","timestamp":"2016-05-20T01:14:30.809Z"}
+{"level":"info","message":"All trailpacks are loaded.","timestamp":"2016-05-20T01:15:54.498Z"}
+{"level":"info","message":"---------------------------------------------------------------\n        Thu May 19 2016 20:15:54 GMT-0500 (CDT)\n        Basic Info\n          Application       : trailmaster\n          Version           : 0.0.0\n          Environment       : development","timestamp":"2016-05-20T01:15:54.499Z"}
+{"level":"info","message":"---------------------------------------------------------------","timestamp":"2016-05-20T01:15:54.500Z"}
+{"statusCode":500,"error":"Internal Server Error","message":"500","level":"info","timestamp":"2016-05-20T01:17:10.646Z"}
+{"statusCode":500,"error":"Internal Server Error","message":"500","level":"info","timestamp":"2016-05-20T01:17:17.566Z"}
+{"level":"info","message":"200","timestamp":"2016-05-20T01:17:20.567Z"}
+{"app":"0.0.0","node":"v6.0.0","libs":{"http_parser":"2.7.0","node":"6.0.0","v8":"5.0.71.35","uv":"1.9.0","zlib":"1.2.8","ares":"1.10.1-DEV","icu":"56.1","modules":"48","openssl":"1.0.2g"},"trailpacks":[{"name":"core","version":"1.0.0-beta-6"},{"name":"repl","version":"1.0.6"},{"name":"router","version":"1.0.2"},{"name":"hapi","version":"1.0.1"},{"name":"mongoose","version":"0.2.2"},{"name":"footprints","version":"1.0.0-beta-7"}],"level":"info","message":"200","timestamp":"2016-05-20T01:17:27.154Z"}
+{"level":"info","message":"All trailpacks are loaded.","timestamp":"2016-05-20T01:23:12.378Z"}
+{"level":"info","message":"---------------------------------------------------------------\n        Thu May 19 2016 20:23:12 GMT-0500 (CDT)\n        Basic Info\n          Application       : trailmaster\n          Version           : 0.0.0\n          Environment       : development","timestamp":"2016-05-20T01:23:12.379Z"}
+{"level":"info","message":"---------------------------------------------------------------","timestamp":"2016-05-20T01:23:12.380Z"}
+{"level":"info","message":"All trailpacks are loaded.","timestamp":"2016-05-20T01:27:58.022Z"}
+{"level":"info","message":"---------------------------------------------------------------\n        Thu May 19 2016 20:27:58 GMT-0500 (CDT)\n        Basic Info\n          Application       : trailmaster\n          Version           : 0.0.0\n          Environment       : development","timestamp":"2016-05-20T01:27:58.024Z"}
+{"level":"info","message":"---------------------------------------------------------------","timestamp":"2016-05-20T01:27:58.025Z"}
